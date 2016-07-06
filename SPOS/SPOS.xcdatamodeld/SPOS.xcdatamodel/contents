@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="AppPara" representedClassName=".AppPara" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="app_id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="discount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pay_shop" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="print" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trade_no" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Order" syncable="YES"/>
+    </entity>
+    <entity name="Order" representedClassName=".Order" syncable="YES">
+        <attribute name="discount_amount" attributeType="String" syncable="YES"/>
+        <attribute name="ignore_amount" attributeType="String" syncable="YES"/>
+        <attribute name="ord_no" attributeType="String" syncable="YES"/>
+        <attribute name="original_amount" attributeType="String" syncable="YES"/>
+        <attribute name="trade_account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trade_amount" attributeType="String" syncable="YES"/>
+        <attribute name="trade_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trade_result" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PayWay" representedClassName=".PayWay" syncable="YES">
+        <attribute name="pmt_currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmt_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmt_internal_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmt_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmt_split_refund" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmt_tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmt_ticket_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmt_type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AppPara" positionX="-2961" positionY="1928" width="128" height="178"/>
+        <element name="Order" positionX="-2783" positionY="1928" width="128" height="163"/>
+        <element name="PayWay" positionX="-2628" positionY="1929" width="128" height="163"/>
+    </elements>
+</model>
