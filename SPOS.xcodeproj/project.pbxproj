@@ -49,6 +49,15 @@
 		1882DF611D0D4EFD000DBA2D /* SystemManage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1882DF5E1D0D4EFD000DBA2D /* SystemManage.storyboard */; };
 		1882DF621D0D4EFD000DBA2D /* MyApps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1882DF5F1D0D4EFD000DBA2D /* MyApps.storyboard */; };
 		18B323FA1CEB214E00688368 /* TcountTransCash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B323F91CEB214E00688368 /* TcountTransCash.swift */; };
+		5A6D29D01D2DFBFF00AED6E4 /* DataReport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6D29CF1D2DFBFF00AED6E4 /* DataReport.storyboard */; };
+		5A6D29E71D2E669000AED6E4 /* ZCharsLineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D29DA1D2E669000AED6E4 /* ZCharsLineViewCell.m */; };
+		5A6D29E81D2E669000AED6E4 /* ZCharsBaseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D29DC1D2E669000AED6E4 /* ZCharsBaseViewCell.m */; };
+		5A6D29E91D2E669000AED6E4 /* ZCharsLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D29E01D2E669000AED6E4 /* ZCharsLeftView.m */; };
+		5A6D29EA1D2E669000AED6E4 /* ZCharsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D29E21D2E669000AED6E4 /* ZCharsManager.m */; };
+		5A6D29EB1D2E669000AED6E4 /* ZCharsRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D29E41D2E669000AED6E4 /* ZCharsRightView.m */; };
+		5A6D29EC1D2E669000AED6E4 /* ZCharsStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D29E61D2E669000AED6E4 /* ZCharsStyle.m */; };
+		5A7B78C11D2D13C700D60E84 /* DataReportMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B78C01D2D13C700D60E84 /* DataReportMainViewController.swift */; };
+		5A7B78C31D2D151D00D60E84 /* DataAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B78C21D2D151D00D60E84 /* DataAnalysisViewController.swift */; };
 		5A90D7371D2224DC0039D585 /* LoadProgressAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90D7361D2224DC0039D585 /* LoadProgressAnimationView.swift */; };
 		5AD432DB1D17E7B200E4B132 /* SystemManageAreaLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD432DA1D17E7B200E4B132 /* SystemManageAreaLanguageViewController.swift */; };
 		5AD432DD1D17F18C00E4B132 /* SelectAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD432DC1D17F18C00E4B132 /* SelectAreaViewController.swift */; };
@@ -183,6 +192,23 @@
 		1882DF5E1D0D4EFD000DBA2D /* SystemManage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SystemManage.storyboard; sourceTree = "<group>"; };
 		1882DF5F1D0D4EFD000DBA2D /* MyApps.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyApps.storyboard; sourceTree = "<group>"; };
 		18B323F91CEB214E00688368 /* TcountTransCash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcountTransCash.swift; sourceTree = "<group>"; };
+		5A6D29CF1D2DFBFF00AED6E4 /* DataReport.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DataReport.storyboard; sourceTree = "<group>"; };
+		5A6D29D91D2E669000AED6E4 /* ZCharsLineViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCharsLineViewCell.h; sourceTree = "<group>"; };
+		5A6D29DA1D2E669000AED6E4 /* ZCharsLineViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCharsLineViewCell.m; sourceTree = "<group>"; };
+		5A6D29DB1D2E669000AED6E4 /* ZCharsBaseViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCharsBaseViewCell.h; sourceTree = "<group>"; };
+		5A6D29DC1D2E669000AED6E4 /* ZCharsBaseViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCharsBaseViewCell.m; sourceTree = "<group>"; };
+		5A6D29DD1D2E669000AED6E4 /* ZCharsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCharsDelegate.h; sourceTree = "<group>"; };
+		5A6D29DE1D2E669000AED6E4 /* ZCharsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCharsKit.h; sourceTree = "<group>"; };
+		5A6D29DF1D2E669000AED6E4 /* ZCharsLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCharsLeftView.h; sourceTree = "<group>"; };
+		5A6D29E01D2E669000AED6E4 /* ZCharsLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCharsLeftView.m; sourceTree = "<group>"; };
+		5A6D29E11D2E669000AED6E4 /* ZCharsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCharsManager.h; sourceTree = "<group>"; };
+		5A6D29E21D2E669000AED6E4 /* ZCharsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCharsManager.m; sourceTree = "<group>"; };
+		5A6D29E31D2E669000AED6E4 /* ZCharsRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCharsRightView.h; sourceTree = "<group>"; };
+		5A6D29E41D2E669000AED6E4 /* ZCharsRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCharsRightView.m; sourceTree = "<group>"; };
+		5A6D29E51D2E669000AED6E4 /* ZCharsStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCharsStyle.h; sourceTree = "<group>"; };
+		5A6D29E61D2E669000AED6E4 /* ZCharsStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCharsStyle.m; sourceTree = "<group>"; };
+		5A7B78C01D2D13C700D60E84 /* DataReportMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataReportMainViewController.swift; sourceTree = "<group>"; };
+		5A7B78C21D2D151D00D60E84 /* DataAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAnalysisViewController.swift; sourceTree = "<group>"; };
 		5A90D7361D2224DC0039D585 /* LoadProgressAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadProgressAnimationView.swift; sourceTree = "<group>"; };
 		5AD432DA1D17E7B200E4B132 /* SystemManageAreaLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemManageAreaLanguageViewController.swift; sourceTree = "<group>"; };
 		5AD432DC1D17F18C00E4B132 /* SelectAreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectAreaViewController.swift; sourceTree = "<group>"; };
@@ -428,6 +454,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5A6D29D71D2E669000AED6E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5A6D29D81D2E669000AED6E4 /* Line */,
+				5A6D29DB1D2E669000AED6E4 /* ZCharsBaseViewCell.h */,
+				5A6D29DC1D2E669000AED6E4 /* ZCharsBaseViewCell.m */,
+				5A6D29DD1D2E669000AED6E4 /* ZCharsDelegate.h */,
+				5A6D29DE1D2E669000AED6E4 /* ZCharsKit.h */,
+				5A6D29DF1D2E669000AED6E4 /* ZCharsLeftView.h */,
+				5A6D29E01D2E669000AED6E4 /* ZCharsLeftView.m */,
+				5A6D29E11D2E669000AED6E4 /* ZCharsManager.h */,
+				5A6D29E21D2E669000AED6E4 /* ZCharsManager.m */,
+				5A6D29E31D2E669000AED6E4 /* ZCharsRightView.h */,
+				5A6D29E41D2E669000AED6E4 /* ZCharsRightView.m */,
+				5A6D29E51D2E669000AED6E4 /* ZCharsStyle.h */,
+				5A6D29E61D2E669000AED6E4 /* ZCharsStyle.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5A6D29D81D2E669000AED6E4 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				5A6D29D91D2E669000AED6E4 /* ZCharsLineViewCell.h */,
+				5A6D29DA1D2E669000AED6E4 /* ZCharsLineViewCell.m */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		5A7B78BF1D2D100000D60E84 /* DataReport */ = {
+			isa = PBXGroup;
+			children = (
+				5A6D29D71D2E669000AED6E4 /* Classes */,
+				5A7B78C01D2D13C700D60E84 /* DataReportMainViewController.swift */,
+				5A7B78C21D2D151D00D60E84 /* DataAnalysisViewController.swift */,
+			);
+			name = DataReport;
+			sourceTree = "<group>";
+		};
 		8910D3241CA8074E00A277A1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -580,6 +645,7 @@
 				185112E01CDB2C6D00C1520C /* Tcount.storyboard */,
 				896AF6141C58AEF300DF7E9E /* Main.storyboard */,
 				896AF61C1C58AEF300DF7E9E /* LaunchScreen.storyboard */,
+				5A6D29CF1D2DFBFF00AED6E4 /* DataReport.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -717,6 +783,7 @@
 		89D6312F1C59C6F400C3D0E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5A7B78BF1D2D100000D60E84 /* DataReport */,
 				1882DF2F1D0D4D8B000DBA2D /* SystemManage */,
 				1882DF2E1D0D4D82000DBA2D /* AppStore */,
 				1882DF2D1D0D4D78000DBA2D /* Myapps */,
@@ -895,6 +962,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6D29D01D2DFBFF00AED6E4 /* DataReport.storyboard in Resources */,
 				185112E11CDB2C6D00C1520C /* Tcount.storyboard in Resources */,
 				896AF61E1C58AEF300DF7E9E /* LaunchScreen.storyboard in Resources */,
 				1882DF621D0D4EFD000DBA2D /* MyApps.storyboard in Resources */,
@@ -982,6 +1050,7 @@
 				8910D3261CA8078600A277A1 /* ForgetPWDController.swift in Sources */,
 				1882DF3E1D0D4E1E000DBA2D /* AppStoreViewController.swift in Sources */,
 				894E62AC1C5B441C00761484 /* RSAHelper.m in Sources */,
+				5A6D29E71D2E669000AED6E4 /* ZCharsLineViewCell.m in Sources */,
 				891460A41CAA744200C92C17 /* CalculaterCell.swift in Sources */,
 				182913381D069A2900CF7D28 /* Order.swift in Sources */,
 				89F6F9151C9FC94300AE8488 /* MenuViewController.swift in Sources */,
@@ -1002,10 +1071,12 @@
 				1882DF551D0D4E31000DBA2D /* GesturePasswordView.swift in Sources */,
 				891D47691CAE5150004633DB /* CoreDataHelper.swift in Sources */,
 				892A60031CA3EEF10001BDC3 /* LauncherScrollView.swift in Sources */,
+				5A6D29EA1D2E669000AED6E4 /* ZCharsManager.m in Sources */,
 				1815E9001CFE944A004BEFD4 /* RevokeDetailController.swift in Sources */,
 				89D631331C59DC5800C3D0E9 /* AFNetworkingManager.swift in Sources */,
 				89EAC2C91CA8C5330001286F /* TerminalActivationController.swift in Sources */,
 				1882DF5C1D0D4E8D000DBA2D /* CheckUserInput.m in Sources */,
+				5A6D29E91D2E669000AED6E4 /* ZCharsLeftView.m in Sources */,
 				18158C591D0170C7007B6253 /* PayWay+CoreDataProperties.swift in Sources */,
 				1882DF401D0D4E1E000DBA2D /* AppItem.swift in Sources */,
 				892F9EE01CBC99AC00B635FD /* CDPayWay.swift in Sources */,
@@ -1019,13 +1090,17 @@
 				1882DF521D0D4E31000DBA2D /* ＭodifyPasswordViewController.swift in Sources */,
 				1882DF561D0D4E31000DBA2D /* KeychainWrapper.swift in Sources */,
 				185112E91CDB2CB700C1520C /* TcountTransrcdFilter.swift in Sources */,
+				5A6D29E81D2E669000AED6E4 /* ZCharsBaseViewCell.m in Sources */,
 				8914609F1CAA2D8400C92C17 /* SYTCell.swift in Sources */,
 				8967A3C51CC8A930000452C1 /* BaseViewModel.swift in Sources */,
 				894048C21CD1B2BF0080DA2E /* AppPara+CoreDataProperties.swift in Sources */,
 				892BF6CF1CB36F5A00D24EFA /* SupervisorPWDView.swift in Sources */,
 				1882DF341D0D4E0D000DBA2D /* GolobalDefine.swift in Sources */,
+				5A6D29EC1D2E669000AED6E4 /* ZCharsStyle.m in Sources */,
 				896AF6131C58AEF300DF7E9E /* LoginController.swift in Sources */,
 				892A61A21CBE167D00050FDD /* ScanWrapper.swift in Sources */,
+				5A7B78C31D2D151D00D60E84 /* DataAnalysisViewController.swift in Sources */,
+				5A7B78C11D2D13C700D60E84 /* DataReportMainViewController.swift in Sources */,
 				89BDA03F1CD9AAC100D16071 /* ExceptionOrderController.swift in Sources */,
 				894048C71CD1FD480080DA2E /* CDOrder.swift in Sources */,
 				89CDDC7B1CA2449000ECDA4B /* CustomBadge.swift in Sources */,
@@ -1041,6 +1116,7 @@
 				1882DF351D0D4E0D000DBA2D /* AppsWebViewController.swift in Sources */,
 				892691111CCF17330040B1D7 /* UINavigationItem+HideBackTitle.m in Sources */,
 				896AF6111C58AEF300DF7E9E /* AppDelegate.swift in Sources */,
+				5A6D29EB1D2E669000AED6E4 /* ZCharsRightView.m in Sources */,
 				8967A3C31CC87D52000452C1 /* ConsumeRevokeViewModel.swift in Sources */,
 				5AD432DD1D17F18C00E4B132 /* SelectAreaViewController.swift in Sources */,
 				89D075B21CB75DC000C770E0 /* NSString+Unicode.m in Sources */,

@@ -12,3 +12,4 @@
 #import <CRToast/CRToast.h>
 #import "APNumberPad.h"
 #import "CheckUserInput.h"
+#import "ZCharsManager.h"

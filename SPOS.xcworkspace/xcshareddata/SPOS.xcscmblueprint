@@ -1,23 +1,25 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0B2D8A35FC859B0FC4F31FDC67638EFF4C5631BA",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F151E73DC58531265ABA41CED85960FC87855DC",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "eeea780a-5d66-1f47-ad80-3b61bfb7de5c++6297" : {
+    "2F151E73DC58531265ABA41CED85960FC87855DC" : {
 
     },
-    "0B2D8A35FC859B0FC4F31FDC67638EFF4C5631BA" : {
+    "eeea780a-5d66-1f47-ad80-3b61bfb7de5c++6297" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "eeea780a-5d66-1f47-ad80-3b61bfb7de5c++6297" : 0,
-    "0B2D8A35FC859B0FC4F31FDC67638EFF4C5631BA" : 0,
-    "9025163822AAEA7A2D8AC9210D0874A56F62B462" : 0
+    "9025163822AAEA7A2D8AC9210D0874A56F62B462" : 0,
+    "2F151E73DC58531265ABA41CED85960FC87855DC" : 0,
+    "5C9C5A2098F15268ED0F594CA430C27942635F33" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EF054BBC-2AE2-4C8A-B834-236FB16DCF93",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "eeea780a-5d66-1f47-ad80-3b61bfb7de5c++6297" : "SPOS\/",
-    "0B2D8A35FC859B0FC4F31FDC67638EFF4C5631BA" : "SPOS\/",
-    "9025163822AAEA7A2D8AC9210D0874A56F62B462" : "git\/Charts\/"
+    "9025163822AAEA7A2D8AC9210D0874A56F62B462" : "git\/Charts\/",
+    "2F151E73DC58531265ABA41CED85960FC87855DC" : "SPOS\/",
+    "5C9C5A2098F15268ED0F594CA430C27942635F33" : "git\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SPOS",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -26,7 +28,12 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.0.0.240\/svn\/kfpt",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B2D8A35FC859B0FC4F31FDC67638EFF4C5631BA"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F151E73DC58531265ABA41CED85960FC87855DC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/xujiaqiang\/GitAll.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C9C5A2098F15268ED0F594CA430C27942635F33"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danielgindi\/Charts.git",

@@ -152,7 +152,16 @@ class MainController: UIViewController , LauncherViewDelegate {
     }
     
     func launcherViewItemSelected(item: LauncherItem) {
-        
+        if item.title == "数据报表" {
+            
+            let dataReportboard = UIStoryboard(name: "DataReport", bundle: nil)
+            let dataReportViewContronll = dataReportboard.instantiateViewControllerWithIdentifier("data_report_main")
+            //self.addChildViewController(dataReportViewContronll)
+            //dataReportViewContronll.topViewController!.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: leftMenuBarItem())
+            self.presentViewController(dataReportViewContronll, animated: true, completion: nil)
+            //self.navigationController?.pushViewController(dataReportViewContronll, animated: true)
+            
+        }
     }
     
 }
